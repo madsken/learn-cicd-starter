@@ -22,5 +22,4 @@ func TestGetAPIKey(t *testing.T) {
 			t.Fatalf("Failed on %d. Want: %s, got: %s", i, want[i], got)
 		}
 	}
-	t.Fatalf("woops")
 }
